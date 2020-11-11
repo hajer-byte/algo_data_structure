@@ -5,7 +5,13 @@ VAR
     sum , i , j : INTEGER ; 
 BEGIN
     sum := 0; 
-   
+    FOR i FROM 0 TO set_1.length-1 STEP 1  DO
+    FOR j FROM 0 TO set_2.length-1 STEP 1  DO
+            Read(set_1[i]); 
+            Read(set_2[j]);
+    END_FOR
+    END_FOR 
+
     FOR i FROM 0 TO tab_1.length -1 STEP 1  DO
         hashT.insert(tab_1[i], 1);
     END_FOR
