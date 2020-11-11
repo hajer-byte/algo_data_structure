@@ -1,0 +1,8 @@
+ALGORITHM hash_search
+VAR
+    htab_1: HASH_TABLE< INTEGER,INTEGER>; 
+    htab_2: HASH_TABLE< INTEGER,INTEGER>; 
+    sum: INTEGER:= 0; 
+BEGIN
+    
+END
